@@ -22,7 +22,6 @@ object Accounts {
         Account("zedge1", "ZEDGE1", "https://zedge-1-default-rtdb.firebaseio.com"), // <-- CONFIG
         Account("zedge2", "ZEDGE2", "https://zedge2-34d95-default-rtdb.firebaseio.com"), // <-- CONFIG
         Account("zedge3", "ZEDGE3", "https://zedge3-1b3dc-default-rtdb.firebaseio.com"), // <-- CONFIG
-        Account("zedge4", "ZEDGE4", "https://zedge4-3bf74-default-rtdb.asia-southeast1.firebasedatabase.app"), // <-- CONFIG
     )
     val keys: List<String> = all.map { it.key }
     /** Round-robin order used by Multi-Account Distribution. */
